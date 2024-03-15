@@ -12,7 +12,7 @@
   }
   #hero:before {
     content: "";
-    background: rgba(255, 255, 255, 0.8); /** Remove this line for transparent background**/
+    
     position: absolute;
     bottom: 0;
     top: 0;
@@ -33,7 +33,7 @@
     font-family: "Poppins", sans-serif;
   }
   #hero span {
-    color: #28a745;
+    color: #015f67;
     margin: 15px 0 0 0;
     font-size: 26px;
     font-family: "Poppins", sans-serif;

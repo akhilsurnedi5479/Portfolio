@@ -1,6 +1,6 @@
 <nav
       id="navbar-example2"
-      class="sticky-top navbar navbar-expand-md bg-body-tertiary">
+      class="sticky-top navbar navbar-expand-md" [ngClass]="{'sticky-header':enableSticky,'tab':enableTab}">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"></a>
         <button
@@ -52,7 +52,12 @@
       </section>
     <hr>
       <section id="resume">
-        <app-resume></app-resume>
+        <div class="row">
+          <div class="col-10 justify-content-center">
+            <app-resume></app-resume>
+          </div>
+        </div>
+        
       </section>
       <hr>
       <section id="projects">
